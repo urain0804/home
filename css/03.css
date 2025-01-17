@@ -1,0 +1,132 @@
+@charset "utf=8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -ms-overflow-style: none;
+ 
+}
+::-webkit-scrollbar {
+  display: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+li{
+    list-style: none;
+}
+
+body {
+    height: 100vh;
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide > img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+.section-05{
+    margin-top: 250px;
+    background-color: antiquewhite;
+}
+.section-05 .swiper{
+    background-color: antiquewhite;
+}
+.section-05 .inner{
+    width: 1840px;
+    height: 814px;
+    margin: 0 auto;
+}
+.section-05 .inner > img{
+    width: 100%;
+    height: 439px;
+    margin: 0 auto;
+}
+.section-05 .inner{
+    position: relative;
+}
+.section-05 .inner .title{
+    font-size: 110px;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translate(-50%)
+}
+.section-05 .inner .box{  
+    width: 1614px;
+    margin: 0 auto;
+    height: 631px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+}
+.section-05 .inner .box .web{
+    display: inline-block;
+    display: flex;
+    align-items: center;
+}
+.section-05 .inner .box .web > img{
+    width: 804px;
+    height: 631px;
+}
+.section-05 .inner .box .web .text{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.section-05 .inner .box .web .text h3{
+    font-size: 38px;
+}
+.section-05 .inner .box .web .text p{
+    font-size: 18px;
+}
+.section-05 .inner .box .web .text ul{
+    display: inline-block;
+    display: flex;
+}
+.section-05 .inner .box .web .text ul li img{
+    width: 58px;
+    height: 58px;
+}
+
+.btn-1 {
+    transition: all 0.3s ease;
+    width: 180px;
+    height: 60px;
+    font-size: 18px;
+    border-radius: 20px;
+  }
+.btn-1:hover {
+     box-shadow:
+     -7px -7px 20px 0px #fff9,
+     -4px -4px 5px 0px #fff9,
+     7px 7px 20px 0px #0002,
+     4px 4px 5px 0px #0001;
+  }
+/* section-05 end */
